@@ -1,0 +1,31 @@
+{
+  "repo": "obj-island-audit",
+  "module": "obj_island_audit",
+  "units": 21,
+  "capability": "Explain edge-connected triangle islands and edge defects in a bounded OBJ mesh.",
+  "user": "CAD/export pipeline maintainers inspecting a triangulated OBJ before downstream processing.",
+  "pain": "Disconnected parts, seam duplicates and orientation conflicts need attributable face/edge evidence rather than an unexplained pass/fail.",
+  "query": "3D data processing",
+  "leader": "isl-org/Open3D",
+  "comparables": [
+    "isl-org/Open3D",
+    "cnr-isti-vclab/meshlab",
+    "mikedh/trimesh"
+  ],
+  "quick": "obj-island-audit example.obj",
+  "expected": "The invented OBJ has two separate closed tetrahedral edge surfaces, eight faces and no reported edge defects; exit 0. Multiple closed islands alone are not an error.",
+  "contract": "UTF-8 OBJ triangle faces only. Positive and relative negative indices are validated at the face declaration, including texture/normal references. Exact-coordinate welding always applies. --weld-decimals 0\u20139 adds half-even decimal-grid quantization, not a Euclidean distance tolerance. Degenerate and duplicate faces are reported and excluded before edge incidence and island grouping. Point-touch contacts remain separate edge islands and are reported. Metadata is counted; materials are never loaded.",
+  "limits": "2 MiB, 20,000 vertices and 30,000 triangle faces. Coordinates: zero or absolute magnitude 1e-12 through 1e9, bounded decimal precision. No polygons, freeform curves, repair, self-intersection detection, vertex-manifold certification, solid volume or printability guarantee. closed_edge_surface only means each retained component edge has incidence two; it is not a full watertightness claim. Area is approximate.",
+  "acceptance": "Recover two closed islands, attribute boundary/nonmanifold/orientation/contact defects, validate interleaved relative indices and reject forward/zero references and unsupported polygons.",
+  "notes": "Open3D already clusters connected triangles and computes manifold evidence. Trimesh already offers adjacency, splitting and watertightness operations; MeshLab offers a broad interactive processing workflow. Trimesh PR 2620 discusses interleaved OBJ relative indices. Our explicit small-file evidence report is a narrower interface, not an absent competitor feature.",
+  "alternatives": "Open3D or Trimesh scripts, or interactive MeshLab filters.",
+  "overlap": "No existing owned repository is a triangle OBJ topology inspector. Point-table, GIS and media index tools do not implement OBJ face incidence or coordinate welding.",
+  "reference": "isl-org/Open3D",
+  "topics": [
+    "obj",
+    "mesh",
+    "geometry",
+    "python",
+    "cad"
+  ]
+}

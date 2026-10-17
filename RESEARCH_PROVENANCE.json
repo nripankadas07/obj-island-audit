@@ -1,0 +1,201 @@
+{
+  "comparables": [
+    {
+      "full": "isl-org/Open3D",
+      "url": "https://github.com/isl-org/Open3D",
+      "stars": 14098,
+      "default_branch": "main",
+      "pushed_at": "2026-09-30T10:06:02Z",
+      "updated_at": "2026-10-17T04:39:38Z",
+      "archived": false,
+      "license": "NOASSERTION",
+      "description": "Open3D: A Modern Library for 3D Data Processing",
+      "observed": "2026-10-17T06:09:54.261Z",
+      "readme": {
+        "path": "README.md",
+        "sha": "ecdce05a71e4d943acebadabc7028940a14a55ec"
+      },
+      "issues": [
+        {
+          "number": 7603,
+          "title": "Forward flags from the centered Window constructors",
+          "url": "https://github.com/isl-org/Open3D/pull/7603",
+          "pull_request": true
+        },
+        {
+          "number": 7602,
+          "title": "Replace global Logging macros with inline functions",
+          "url": "https://github.com/isl-org/Open3D/pull/7602",
+          "pull_request": true
+        },
+        {
+          "number": 7601,
+          "title": "docs: exclude dev_wheels and sycl .in.rst templates from the Sphinx build",
+          "url": "https://github.com/isl-org/Open3D/pull/7601",
+          "pull_request": true
+        },
+        {
+          "number": 7600,
+          "title": "Fix optional union types in generated Python signatures",
+          "url": "https://github.com/isl-org/Open3D/pull/7600",
+          "pull_request": true
+        },
+        {
+          "number": 7599,
+          "title": "docs: list supported point cloud formats",
+          "url": "https://github.com/isl-org/Open3D/pull/7599",
+          "pull_request": true
+        }
+      ],
+      "observation_scope": "Current metadata, README and up to five issue/PR records read; no exhaustive global ranking or competitor execution benchmark."
+    },
+    {
+      "full": "cnr-isti-vclab/meshlab",
+      "url": "https://github.com/cnr-isti-vclab/meshlab",
+      "stars": 5870,
+      "default_branch": "main",
+      "pushed_at": "2026-08-25T20:38:52Z",
+      "updated_at": "2026-10-17T02:20:16Z",
+      "archived": false,
+      "license": "GPL-3.0",
+      "description": "The open source mesh processing system",
+      "observed": "2026-10-17T06:09:54.299Z",
+      "readme": {
+        "path": "README.md",
+        "sha": "3837b00363df5014b53a9b2ff8ce643eac70994e"
+      },
+      "issues": [
+        {
+          "number": 1670,
+          "title": "Initialize the CheckSurfDist default of isotropic remeshing",
+          "url": "https://github.com/cnr-isti-vclab/meshlab/pull/1670",
+          "pull_request": true
+        },
+        {
+          "number": 1668,
+          "title": "Add a windows postbuild custom command so devs building via MSVC don'\u2026",
+          "url": "https://github.com/cnr-isti-vclab/meshlab/pull/1668",
+          "pull_request": true
+        },
+        {
+          "number": 1663,
+          "title": "Preserve edge topology when exporting PLY meshes",
+          "url": "https://github.com/cnr-isti-vclab/meshlab/pull/1663",
+          "pull_request": true
+        },
+        {
+          "number": 1657,
+          "title": "crashes left and right !",
+          "url": "https://github.com/cnr-isti-vclab/meshlab/issues/1657",
+          "pull_request": false
+        },
+        {
+          "number": 1656,
+          "title": "filter_embree Error",
+          "url": "https://github.com/cnr-isti-vclab/meshlab/issues/1656",
+          "pull_request": false
+        }
+      ],
+      "observation_scope": "Current metadata, README and up to five issue/PR records read; no exhaustive global ranking or competitor execution benchmark."
+    },
+    {
+      "full": "mikedh/trimesh",
+      "url": "https://github.com/mikedh/trimesh",
+      "stars": 3702,
+      "default_branch": "main",
+      "pushed_at": "2026-10-14T19:23:27Z",
+      "updated_at": "2026-10-15T18:23:07Z",
+      "archived": false,
+      "license": "MIT",
+      "description": "Python library for loading and using triangular meshes.",
+      "observed": "2026-10-17T06:09:54.215Z",
+      "readme": {
+        "path": "README.md",
+        "sha": "a3410dd44b79f08ce1dc31241c733ffe4f87919d"
+      },
+      "issues": [
+        {
+          "number": 2626,
+          "title": "The quickstart example in the README.md causes a crash due to the used GLB file, when memory size is low",
+          "url": "https://github.com/mikedh/trimesh/issues/2626",
+          "pull_request": false
+        },
+        {
+          "number": 2625,
+          "title": "Release: Fix Normals Under Nonuniform Scaling",
+          "url": "https://github.com/mikedh/trimesh/pull/2625",
+          "pull_request": true
+        },
+        {
+          "number": 2622,
+          "title": "Feature request: opt-in export diagnostics for unsupported mesh attributes",
+          "url": "https://github.com/mikedh/trimesh/issues/2622",
+          "pull_request": false
+        },
+        {
+          "number": 2620,
+          "title": "Resolve interleaved OBJ relative indices before grouping",
+          "url": "https://github.com/mikedh/trimesh/pull/2620",
+          "pull_request": true
+        },
+        {
+          "number": 2618,
+          "title": "Fix nonuniform weighted Procrustes rotation",
+          "url": "https://github.com/mikedh/trimesh/pull/2618",
+          "pull_request": true
+        }
+      ],
+      "observation_scope": "Current metadata, README and up to five issue/PR records read; no exhaustive global ranking or competitor execution benchmark."
+    }
+  ],
+  "code_references": [
+    {
+      "repo": "isl-org/Open3D",
+      "sha": "058e215ffcdf939e1aba5bd74d2ec8385f617ace",
+      "url": "https://github.com/isl-org/Open3D/blob/main/cpp/open3d/geometry/TriangleMesh.cpp",
+      "observed": "2026-10-17T06:25:16.016Z"
+    }
+  ],
+  "queries": [
+    {
+      "query": "VCD waveform",
+      "url": "https://github.com/search?q=VCD+waveform&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:07:55.959Z"
+    },
+    {
+      "query": "mesh analysis",
+      "url": "https://github.com/search?q=mesh%20analysis&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:07:56.979Z"
+    },
+    {
+      "query": "modbus",
+      "url": "https://github.com/search?q=modbus&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:07:57.966Z"
+    },
+    {
+      "query": "cue splitter",
+      "url": "https://github.com/search?q=cue%20splitter&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:07:58.843Z"
+    },
+    {
+      "query": "PGN parser",
+      "url": "https://github.com/search?q=PGN%20parser&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:07:59.739Z"
+    },
+    {
+      "query": "3D data processing",
+      "url": "https://github.com/search?q=3D+data+processing&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:25:19.570Z"
+    },
+    {
+      "query": "modbus library",
+      "url": "https://github.com/search?q=modbus+library&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:26:25.149Z"
+    },
+    {
+      "query": "audio CD image",
+      "url": "https://github.com/search?q=audio+CD+image&type=repositories&s=stars&o=desc",
+      "observed": "2026-10-17T06:26:31.848Z"
+    }
+  ]
+}
